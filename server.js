@@ -1,5 +1,5 @@
 const express=require('express');
-
+require('./config/connect');   //appel les fichier connect for connect with mongodb
 const app = express();
 
 app.post('/add',()=>{
